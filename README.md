@@ -10,7 +10,7 @@ To identify eligible candidates for promotion based on various attributes around
 
 ## APPROACH USED :-
 * Data visualization : Used Matplotlib to visualize distribution of data.
-* Data transformation : Used LabelEncoder to convert categorical data into numeric data.
+* Data transformation : Used Ordinal Encoder to convert categorical data into numeric data.
 * Feature Engineering : Created new features.
 * Hyperparameter tuning : Used optuna to find best set of parameters.
 * Model Selection : Model selected based on cv-score, as well as public LB-sccore.
